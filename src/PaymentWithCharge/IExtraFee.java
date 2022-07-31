@@ -1,8 +1,7 @@
 package PaymentWithCharge;
 
-public interface ExtraFee {
+public interface IExtraFee {
     void CalculateDeliveryFee();
     void CalculateSurchargeAmount(int cardType, double productTotalAmount);
-
 
 }

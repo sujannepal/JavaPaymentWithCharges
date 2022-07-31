@@ -1,6 +1,6 @@
 package PaymentWithCharge;
 
-public class Product extends Customer implements ExtraFee {
+public class Product extends Customer implements IExtraFee {
     double productTotalAmount;
     private double deliveryFee;
     private  double surchargeAmount;
