@@ -30,6 +30,7 @@ public class Main {
         }
         else if (paymentMethod ==2 ) {
             System.out.println("Your Payment method: Cash");
+            prod.CalculateSurchargeAmount();
         }
         else{
             System.out.println("Unknown payment method");
